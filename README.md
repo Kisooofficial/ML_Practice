@@ -13,6 +13,9 @@ skewness가 너무 큰 것에 대해서는 log화
 + 3차 시도 결과 - 1711238.xxxxx(rmse)
 lightgbm 돌려보면서 더 좋은 성능을 만들려고 함. 사실, 첫째날 왜 저렇게 나왔는 지 모름. 그냥 제출만 하려다가 얼추 맞춰진듯함.
 1차 시도 이후로 가장 높은 점수받음.
++ 4차 시도 결과 - 1343941.xxxxx(rmse)
+RandomForest, CatBoost, XGBoost, LightGBM, GradientBoosting, NGB(Natural Gradient Boosting) 6가지 조합해서 블랜딩
+각각을 학습시켜서 평균으로 블랜딩한 결과 제출. 
 
 # 캐글 산탄데르 고객 예측 (1등꺼 커널 필사)
 + 1일차 : 데이터 overview 확인 및 기초 데이터 분석 완료
